@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cramer's Rule Matrix Solver</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Cramer's Rule Solver</h1>
+      <p>Advanced Linear Algebra • Determinant-Based Systems</p>
+    </header>
+
+    <section class="matrix-section">
+      <h2>Coefficient Matrix</h2>
+      <div id="matrix-input" class="matrix-grid"></div>
+    </section>
+
+    <section class="constants-section">
+      <h2>Constants Vector</h2>
+      <div id="constants-input" class="constants-grid"></div>
+    </section>
+
+    <section class="controls">
+      <button id="solveBtn">Solve System</button>
+      <button id="resetBtn">Reset</button>
+    </section>
+
+    <section class="output">
+      <h2>Solution</h2>
+      <pre id="result">Waiting for input…</pre>
+    </section>
+
+    <footer>
+      <span>Pure JavaScript • Determinants • Cramer's Rule</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
